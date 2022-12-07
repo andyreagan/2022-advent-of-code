@@ -8,6 +8,7 @@ Need to look into lifetimes.
 ```
 cargo test
 cargo run
+```
 
 ## Python
 
