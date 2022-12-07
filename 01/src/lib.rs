@@ -22,7 +22,7 @@ mod tests {
 }
 
 
-pub fn search<'a>(contents: &'a str) -> i32 {
+pub fn search(contents: &str) -> i32 {
     let mut max = 0;
     let mut tmp = 0;
     for line in contents.lines() {
@@ -40,7 +40,7 @@ pub fn search<'a>(contents: &'a str) -> i32 {
 }
 
 
-pub fn top3<'a>(contents: &'a str) -> i32 {
+pub fn top3(contents: &str) -> i32 {
     let mut max = [0, 0, 0];
     let mut tmp = 0;
     for line in contents.lines() {
